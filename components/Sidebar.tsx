@@ -19,12 +19,10 @@ const Sidebar: React.FC = () => {
     { label: 'Manager Dashboard', icon: 'dashboard', path: '/manager/dashboard' },
     { label: 'Auto extraction (Invoice)', icon: 'add_circle', path: '/manager/submit' },
     { label: 'Manual ingestion  (PO, GR, Invoice, Vendor master)', icon: 'database', path: '/data-sources' },
-    { label: 'SOX Evidence', icon: 'verified_user', path: '/sox-evidence' },
   ];
 
   const insightsItems = [
     ...commonItems,
-    { label: 'SOX Evidence', icon: 'verified_user', path: '/sox-evidence' },
   ];
 
   const diagnosticsItems = [
