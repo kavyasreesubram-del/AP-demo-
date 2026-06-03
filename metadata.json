@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Enterprise AP IQ Final",
+  "description": "A high-fidelity global supply chain invoice validation system featuring 3-way matching and global procurement compliance verification.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
